@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width_device_width, initial-scale-1.0">
+        <link rel="stylesheet" href="EstiloMiPrimerPortfolio.css">
+        <title> Mi primer Portfolio </title>
+    </head>
+
+    <body>
+        <h1 id="nombre">Dayana Búrmida</h1>
+        <br>
+        <p class="primeraclase">La formación en Arquitectura y ordenamiento urbanístico me permitió desarrollar diversas competencias acorde a los requerimientos de una profesión exigente y en constante actualización.
+            <br>
+            Me incentivó a moldear un perfil polifacético y versátil, con capacidad de análisis y auto-crítica que me posibilita la continua mejora de resultados.
+            <br>
+            Entre las habilidades adquiridas debo destacar la capacidad para trabajar en equipo, las competencias comunicativas, la flexibilidad y adaptabilidad, la capacidad resolutiva, la constancia y auto-motivación como motor para cumplir objetivos, y el desarrollo de estrategias y conductas de auto-aprendizaje.
+        </p>
+        <br><br>
+
+        <div id="conteiner">
+            <div id="box1">
+                <ul>
+                    <li><a href="#experiencia">Experiencia profesional </a> </li>
+                    <br>
+                    <li><a href="#habilidades">Hablilidad y conocimiento </a> </li>
+                    <br>
+                    <li><a href="#educacion">Educación</a> </li>
+                    <br>
+                    <li><a href="#perfiles">Perfiles Sociales</a> </li>
+                    <br>
+                    <li><a href="#contactar">Contactar</a></li>    
+                </ul>
+            </div>
+            <div id="box2">
+                <img src="imagen.jpg" class="img" alt="imagen estilo fotocarné">
+            </div>
+
+        </div>
+
+        <br>
+        <h2 class="subtitulos" id="experiencia">Experiencia profesional</h2>
+        <table class="tabla">
+            <tr>
+                <th>Empresa/Organización</th>
+                <th>Cargo</th>
+                <th>Localización</th>
+                <th>Desde-hasta</th>
+            </tr>
+            <tr>
+                <td>Urufarma S.A</td>
+                <td>Administrativo técnico</td>
+                <td>Colonia de Nicolich, Canelones</td>
+                <td>Febrero 2017 - Actualidad</td>
+            </tr>
+
+            <tr>
+                <td>Sadarq</td>
+                <td>Dibujante técnico</td>
+                <td>Montevideo, Uruguay</td>
+                <td>Marzo 2016 - Febrero 2017</td>
+            </tr>
+
+            <tr>
+                <td>Stiffano & asociados</td>
+                <td>Captación de inmuebles y clientes</td>
+                <td>Montevideo, Uruguay</td>
+                <td>Marzo 2014 - Marzo 2016</td>
+            </tr>
+
+        </table>
+
+        <hr>
+            <h2 class="subtitulos" id="habilidades">Habilidades y conocimientos</h2>
+            <ul>
+                <li><b>Desarrollo web: </b>HTML5, CSS3, JavaScript.</li>
+                <li><b>Diseño y visualización de proyecto: </b> Corel, Photoshop, AutoCad 2D.</li>
+                <li><b>Gestión de Mantenimiento: </b>Control y monitoreo de SCADAs de sistemas críticos para planta farmacéutica, análisis de datos der sistemas críticos, elaboración de informes trimestrales de sistemas críticos, elaboración de SOPs e instructivos de operación y mantenimiento a partir de manuales, sistema de generación de O.Ts GMANT.</li>
+                <li><b>Idiomas:</b> Inglés nivel: FIRST</li>
+                <li><b>Conocimientos en informática: </b> Microsoft Word, Excel, navegación por internet, redes sociales, plataformas de comercio electrónico.</li>
+                <li><b>Sistemas de informacion geografica (GIS):</b> Manejo de SIG Montevideo</li>
+            </ul>
+        <hr>
+            <h2 class="subtitulos" id="educacion">Educación</h2>
+            <table class="tabla">
+                <tr>
+                    <th>Título</th>
+                    <th>Entidad</th>
+                    <th>Promoción</th>
+                </tr>
+
+                <tr>
+                    <td>Desarrollo web</td>
+                    <td>Plan Ceibal (Jóvenes a programar)</td>
+                    <td>2023</td>
+                </tr>
+    
+                <tr>
+                    <td>Administración de empresas</td>
+                    <td>Instituto de comercio y administración UTU La Blanqueada</td>
+                    <td>2016-2017</td>
+                </tr>
+                <tr>
+                    <td>Arquitectura</td>
+                    <td>Facultad de Arquitectura, diseño y urbanismo - UdelaR</td>
+                    <td>2012-2016</td>
+                </tr>
+            </table>
+        <hr>
+
+        <h2 class="subtitulos" id="perfiles"> Perfiles Sociales</h2>
+        <p>Tambien puedes encontrarme en: </p>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/dayana-b-53a320141/" target="_blank">Linkedin Dayana Burmida</a></li>
+        </ul>
+
+        <p>Y puedes conocer mi emprendimiento de productos de impresión 3D en: </p> 
+        <ul>
+            <li><a href="https://www.instagram.com/chapitas_uy/" target="_blank">Ideas3D identificadores</a></li>
+            <li><a href="https://www.instagram.com/ideas3d.uy/" target="_blank">Ideas3D Souvenirs y regalos personalizados</a></li>
+        </ul>
+
+        <hr>
+        <h2 class="subtitulos" id="contactar">Contacto</h2>
+
+        <form action="#" method="post"> <!-- Crea un formulario que enviará sus datos a la misma página (por el #) y utilizará el método post para enviar los datos del formulario (Los datos enviados NO quedan visibles en la dirección URL para el usuario). -->
+        <label for="de">De:</label> <!-- Se utiliza para asociar un texto descriptivo "De:" con un elemento de formulario específico y el atributo for es para especificar a qué elemento de formulario se está asociando, en este caso se va a asociar al elemento con id="nombre". -->
+        <input type="text" id="de" name="nombredecontacto" required> <!-- input crea un campo de entrada (de texto por el atributo type con valor "text"). El atributo id con el valor "de" permite asociar este campo de entrada con el texto descriptivo del label de arriba. Crea una relacion entre ellos. El atributo name es para especificar el nombre del campo de entrada de texto cuando se envía el formulario. -->
+        <br></br>
+  
+        <label for="tematica">Tematica:</label>
+        <select id="tematica" required>
+            <option value="" disabled selected>--Elige un tema--</option>
+            <option value="opcion1">Consulta</option>
+            <option value="opcion2">Propuesta</option>
+            <option value="opcion4">Otro</option>
+        </select>
+        <br></br> <!-- Esta etiqueta sirve para crear un salto de linea (Espacio vertical mayor entre lo visible anterior y lo visible siguiente)-->
+  
+
+  
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+        <br></br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="4" cols="185">Hola Dayana, me interesa contactarte por una propuesta laboral, te dejo mi celular para ponernos en contacto...</textarea>
+        <br></br>
+
+        <input type="submit" value="Enviar"> <!-- El atributo type="submit" indica que este <input> es un botón de envío. Cuando se hace clic en el botón, se envían los datos del formulario al servidor utilizando el método especificado en el atributo method del elemento <form>. El atributo value="Enviar" especifica el texto o el valor que se mostrará en el botón. En este caso, el texto "Enviar" se mostrará en el botón. -->
+
+    </body>
+
+</html>

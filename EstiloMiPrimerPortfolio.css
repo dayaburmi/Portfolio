@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(241, 212, 245);
+    color: black;
+}
+h1#nombre {
+    background-color:rgb(255, 255, 255);
+    font-weight:bolder;
+
+}
+
+p.primeraclase {
+    background-color: white;
+}
+
+div#conteiner {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    width: 1385px;
+    height: 200px;
+    background-color: black;
+    color: aliceblue;
+}
+
+div#box1 {
+    width: 1040px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+div#box2 {
+    float: right;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+div#box2 .img {
+    height: 200px;
+    text-align: center;
+}
+
+.subtitulos {
+    font-weight: bold; /*En este caso, este estilo no se está aplicando porque la etiqueta h2 ya tiene un estilo bold por defecto, pero lo dejo para conocer atributo de estilo*/
+}
+
+.tabla {
+    table-layout: fixed;
+    width: 100%;
+    border: rgb(0, 0, 0) 2px solid
+}
+
+th {
+    border: rgb(0, 0, 0) 2px solid;
+}
+
+td {
+    border: rgb(0, 0, 0) 1px solid;
+  }
+
+  #de, #asunto, #tematica {
+    width: 15%
+  }
+
+  #tematica {
+    text-align: center;
+  }
+
+
+
